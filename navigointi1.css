@@ -1,0 +1,218 @@
+@media (min-width: 918px) {
+
+  .container_nav {
+    margin: 0 auto;
+  }
+  
+    .navbar-toggle {
+      display: none;
+      
+    }
+  
+    .navbar-header {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .navbar-collapse {
+     display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+    
+    }
+  
+    .navbar-collapse ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      
+    }
+  
+    .navbar-collapse ul li {
+      display: inline-block;
+      margin-right: 10px;
+      margin-left: 10px;
+      
+    }
+  
+    .navbar-collapse ul li:last-child {
+      margin-right: 0;
+     
+    }
+  
+  
+    .navbar-collapse ul li a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: block;
+      text-align: center;
+      
+
+    }
+
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+     
+      
+    }
+      
+      
+      .navbar-nav li {
+        display: flex;
+        margin: 0 10px;
+        
+      }
+      
+      .navbar-nav li:last-child {
+        margin-right: 0;
+        
+      }
+  }
+  
+  @media screen and(max-width: 370px) {
+
+    .navbar-header {
+      float: left;
+    }
+    .navbar-brand {
+      float: left;
+      margin-right: 0;
+    }
+  
+    .navbar-header {
+      float: left;
+    }
+  
+    .navbar-toggle {
+      float: left;
+    }
+  
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .navbar-nav li {
+      flex-grow: 1;
+      text-align: center;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  
+    .navbar-nav li:last-child {
+      margin-right: 0;
+    }
+  
+    .navbar-collapse {
+      display: none !important;
+      height: 0 !important;
+      padding-bottom: 0;
+      overflow: hidden !important;
+    }
+  
+    .navbar-collapse ul {
+      float: none;
+    }
+  
+    .navbar-collapse ul li {
+      float: none;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+
+/*Yhistetty 1 ja 2*/
+  .navbar, .navbar-inverse {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 80px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      z-index: 9999; 
+      
+      
+  }
+  /*navigointi palkin väri ja korkeus*/
+  .navbar{
+      background-color: #a19e95;
+      height: 60px;
+      
+      
+      
+  }
+  
+  .navbar-inverse{
+      height: 50px;
+  }
+  
+
+  .nav li {
+    display: inline;
+    
+  }
+  
+  .bg-custom2{
+      background-color: #d7d1c2;
+      width: auto;
+      height: auto;
+  }
+  
+  /*Hamburgemenun iconi palikat*/
+    .icon-bar{
+      display: block;
+      width: 22px;
+      height: 2px;
+      border-radius: 1px;
+      margin: 5px auto;
+      background-color: #363535;
+      
+    
+      }
+  
+    .navbar-toggle{
+      width: 42px;
+      height: 42px;
+      padding: 0;
+      margin: 8px 0;
+      border-color: #363535;
+      border-radius: 10px;
+    
+      }
+
+  /*Navbar asetuksia*/
+  .navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    font-family: "Sumana";
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 15px 20px 35px 20px;
+    
+  }
+  /*Navbar asetuksia hover*/
+  .navbar-inverse .navbar-nav li a:hover {
+    background-color: #918e8e;
+    transition: 0.2s all linear;
+    height: 10%;
+  }
+
+  .navbar-collapse.collapse.in li a {
+      color: #ffffff;
+  }
+
+  .btn.active {
+    background-color: rgb(155, 152, 152); /* change the background color to your desired color */
+    color: #020202; /* change the text color to your desired color */
+  }
+  
+
+  
+  
